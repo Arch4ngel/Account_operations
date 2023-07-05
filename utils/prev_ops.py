@@ -3,6 +3,7 @@ import reformat
 
 
 def prev_ops():
+    """Функция вызывает 5 последних операций из файла данных"""
     data = json.load(open('operations.json', encoding='utf8'))
     i = 0
     output = ''
