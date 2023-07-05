@@ -18,6 +18,3 @@ def prev_ops():
         output += f"\n{data[i]['operationAmount']['amount']} {data[i]['operationAmount']['currency']['name']}\n\n"
         i += 1
     return output
-
-
-print(prev_ops())
